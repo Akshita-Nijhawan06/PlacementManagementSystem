@@ -1,0 +1,13 @@
+CREATE DATABASE placement_db;
+
+USE placement_db;
+
+CREATE TABLE students(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    roll_no VARCHAR(50),
+    email VARCHAR(100),
+    course VARCHAR(50),
+    cgpa DOUBLE,
+    phone VARCHAR(20)
+);
