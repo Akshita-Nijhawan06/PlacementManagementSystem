@@ -1,50 +1,42 @@
-Placement Management System
+# Placement Management System
 
-Overview
+## Overview
 A Java-based Placement Management System developed using JDBC and MySQL.
 
-Technologies Used
-- Java
-- JDBC
-- MySQL
-- IntelliJ IDEA
-
-Features
+## Features
 - Add Student
 - View Students
 - Search Student
 - Update Student
 - Delete Student
 
-Database
+## Technologies Used
+- Java
+- JDBC
+- MySQL
+- IntelliJ IDEA
+
+## Database
 Database Name: placement_db
 
 Table: students
 
-Fields:
-- id
-- name
-- roll_no
-- email
-- course
-- cgpa
-- phone
+## Project Structure
 
-Project Structure
+src/
+├── app/
+│   └── PlacementManagementSystem.java
+├── dao/
+│   └── StudentDAO.java
+├── db/
+│   └── DatabaseConnection.java
+└── model/
+    └── Student.java
 
-src
-├── app
-├── dao
-├── db
-└── model
+## Screenshots
 
-How to Run
+See screenshots folder for project output images.
 
-1. Create the database using database.sql
-2. Update database credentials in DatabaseConnection.java
-3. Run PlacementManagementSystem.java
-4. Use the menu-driven console interface
+## Author
 
-Author
-
-Akshita
+Akshita Nijhawan
