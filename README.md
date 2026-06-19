@@ -36,6 +36,8 @@ src/
 ## Screenshots
 
 See screenshots folder for project output images.
+<img width="1002" height="238" alt="Screenshot 2026-06-19 135528" src="https://github.com/user-attachments/assets/78729c93-a5ce-4fe8-bef7-5394980108a3" />
+
 
 ## Author
 
